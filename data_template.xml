@@ -20,4 +20,10 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
             <field name="wiz_name">jasper_reports.data_template</field>
         </record>
     </data>
+    <data>
+        <record model="ir.action-res.group" id="data_template_group_admin">
+            <field name="action" ref="act_jasper_reports_data_template"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+    </data>
 </tryton>
